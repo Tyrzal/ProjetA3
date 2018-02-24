@@ -1,0 +1,28 @@
+Ce qui a changé :
+
+Question :
+
+Ajout de l'attribut "author"
+Refactor de l'attribut "question", devenu "statement"
+maj du constructeur
+Ajout des méthodes equals et clone
+
+Deck
+
+Modification de la méthode getQuestion()
+Modification de toString
+
+Category
+
+Ajout de toutes les catégories du jeu
+Ajout d'attributs
+Ajout d'un constructeur
+Ajout de getters
+
+A vérifier :
+
+méthode equals de Question
+test de equals dans QuestionTest
+test de next dans IteratorQuestionTest
+test de iteratorQuestion dans IteratorQuestionTest
+test de value dans IteratorQuestionTest
