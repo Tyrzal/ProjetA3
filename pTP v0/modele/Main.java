@@ -4,11 +4,11 @@ public class Main {
 	public static void main(String[] args) {
 		
 		public static void main(String[] args){
-			Question q1 = new Question("De quelle couleur est le bleu?", "bleu",Category.DEUX);
-			Question q2 = new Question("De quelle couleur est le orange?", "orange",Category.UNE);
-			Question q3 = new Question("De quelle couleur est le noir?", "noir",Category.TROIS);
-			Question q4 = new Question("De quelle couleur est le vert?", "vert",Category.UNE);
-			Question q5 = new Question("De quelle couleur est le rouge?", "rouge",Category.DEUX);
+			Question q1 = new Question("Borgniet", "De quelle couleur est le bleu?", "bleu",Category.DEUX);
+			Question q2 = new Question("Perazzo", "De quelle couleur est le orange?", "orange",Category.UNE);
+			Question q3 = new Question("Rocroix", "De quelle couleur est le noir?", "noir",Category.TROIS);
+			Question q4 = new Question("Perazzo", "De quelle couleur est le vert?", "vert",Category.UNE);
+			Question q5 = new Question("Rocroix", "De quelle couleur est le rouge?", "rouge",Category.DEUX);
 		
 			Deck deck = Deck.getInstance();
 			
