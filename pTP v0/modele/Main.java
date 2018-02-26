@@ -36,7 +36,7 @@ public class Main {
 			
 			while(it.hasNext())
 			{
-				System.out.println((it.value().getQuestion()));
+				System.out.println((it.value().getStatement()));
 				
 			
 				
