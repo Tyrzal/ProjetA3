@@ -32,7 +32,7 @@ public class QuestionTest {
 		
 		question = new Question("Alexandre", "De quelle couleur est le bleu ?", "bleu", Category.networks);
 		author = (String) Explorateur.getField(question, "author");
-		statement = (String) Explorateur.getField(question, "statmeent");
+		statement = (String) Explorateur.getField(question, "statement");
 		answer = (String) Explorateur.getField(question, "answer");
 		category = (Category) Explorateur.getField(question, "category");
 		
