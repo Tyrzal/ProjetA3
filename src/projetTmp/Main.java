@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 import exceptions.AlreadyInTheListException;
 
-public class Test {
+public class Main {
 
 	public static void main(String[] args){
 		Question q1 = new Question("De quelle couleur est le bleu?", "bleu",Category.DEUX);
